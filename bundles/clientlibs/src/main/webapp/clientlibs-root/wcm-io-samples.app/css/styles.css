@@ -973,3 +973,12 @@ td:last-child {
   background-color: #eee;
   font-style: italic
 }
+
+
+/* Test classes for WWCM-6 */
+.testRed {
+  background-color: #ff0000;
+}
+.testGreen {
+  background-color: #00ff00;
+}
