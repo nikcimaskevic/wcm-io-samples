@@ -5,7 +5,7 @@
 
   "cq:editConfig": {
     "cq:listeners": {
-      "afteredit": "handlerSample.authoring.listener.refreshAjaxContentAfterEdit"
+      /*"afteredit": "handlerSample.authoring.listener.refreshAjaxContentAfterEdit"*/
     }
   },
 

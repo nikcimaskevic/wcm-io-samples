@@ -6,5 +6,15 @@
   "wcmio:parsysWrapperCss": "link-list",
   "wcmio:parsysParagraphElement": "li",
   "wcmio:parsysParagraphCss": "testGreen",
-  "wcmio:parsysNewAreaCss": "link-list-item testRed"
+  "wcmio:parsysNewAreaCss": "link-list-item testRed",
+
+  "cq:childEditConfig": {
+    "jcr:primaryType": "cq:EditConfig",
+    "cq:layout": "rollover",
+    "cq:listeners": {
+      "afterinsert": "REFRESH_PARENT",
+      "afteredit": "REFRESH_PARENT"
+    }
+  }
+
 }
